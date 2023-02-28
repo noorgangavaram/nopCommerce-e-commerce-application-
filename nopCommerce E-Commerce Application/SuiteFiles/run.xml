@@ -1,0 +1,23 @@
+<suite name="nopCommerce Login">
+    <test name="nopCommerceTestCase">
+        <parameter name="serch" value="Laptop"/>
+        <parameter name="qty" value="3"/>
+        <parameter name="zipCode" value="560037"/>
+        <parameter name="browser" value="firefox"/>
+        <parameter name="mail" value="noor789@gmail.com"/>
+        <parameter name="pwd" value="noornop79931"/>
+        <classes>
+               <class name="LoginTestCase"/>
+        </classes>
+    </test>
+
+    <test name="Chrome Test">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="mail" value="noor789@gmail.com"/>
+        <parameter name="pwd" value="noornop79931"/>
+        <classes>
+            <class name="BooksTestCase"/>
+        </classes>
+    </test>
+
+</suite>
